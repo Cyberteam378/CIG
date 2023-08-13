@@ -222,10 +222,11 @@ kontol_rich = random.choice([K2,M2,H2,U2,B2,O2,J2])
 # BANNER
 def banner():
 	os.system("clear")
-	prints(Panel(f'''{H2}               ___  ____ ____ _   _ ____ _  _ _  _ _  _ 
-[bold green]                |__] |    | ___ |__\  |
-[bold green]                |      |__|   |    |   \   |      
-[bold blue]        Welcome to Bruteforce Putricyber''',width=80,padding=(0,2),style=f"{color_table}"))
+	prints(Panel(f'''{H2}
+                            ___          ____  ___   _  
+[bold green]                |__]   |  |   |    |__\  |
+[bold green]                |      |__|   |    | \   |      
+[bold pink]           Welcome to Bruteforce Putricyber''',width=80,padding=(0,2),style=f"{color_table}"))
 
 def process_data():
     sleep(0.08)
