@@ -137,9 +137,8 @@ def change_theme():
 		open("data/color_table.txt","w").write("#AAAAAA")
 	time.sleep(2)
 	prints(Panel("[white]berhasil mengganti tema, silahkan jalankan ulang scriptnya python run.py",style=f"{color_table}"));time.sleep(2);exit()
-
-USN="Mozilla/5.0 (Linux; Android 6.0; MEIZU_M5 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/44.0.2403.147 Mobile Safari/537.36 Instagram 43.0.0.10.97 Android (23/6.0; 320dpi ; 720x1280; Meizu; MEIZU_M5; MEIZU_M5; mt6755; ru_RU; 105842051)"
-USN="Mozilla/5.0 (Linux; Android 6.0; M5 Note Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/44.0.2403.128 Mobile Safari/537.36 Instagram 37.0.0.21.97 Android (23/6.0; 480dpi; 1080x1920; Meizu; Catatan M5; M5Catatan; mt6755; ru_RU; 98288242)"
+USN="Mozilla/5.0 (Linux; Android 7.1.1; K6 Build/N6F26Q; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.130 Mobile Safari/537.36 Instagram 287.0.0.25.77 Android (25/7.1.1; 480dpi; 1080x2016; OUKITEL; K6; K6; mt6763; it_IT; 483850157)"
+USN="Mozilla/5.0 (Linux; Android 7.1.2; LM-X410.F Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.166 Mobile Safari/537.36 Instagram 295.0.0.32.109 Android (25/7.1.2; 320dpi; 720x1193; LGE/lge; LM-X410.F; mcv3; mcv3; pt_BR; 502546248)"
 
 internal,external,success,checkpoint,loop,following,lisensikuni,lisensiku=[],[],[],[],0,[],[],['sukses']
 method=[]
